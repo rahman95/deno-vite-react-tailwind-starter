@@ -1,4 +1,4 @@
-# Vite + Deno + React + TypeScript
+# Vite + Deno + React + Tailwind Starter
 
 ## Running
 
@@ -7,7 +7,7 @@ You need to have Deno v2.0.0 or later installed to run this repo.
 Start a dev server:
 
 ```
-$ deno task dev
+$ deno run dev
 ```
 
 ## Deploy
@@ -15,5 +15,15 @@ $ deno task dev
 Build production assets:
 
 ```
-$ deno task build
+$ deno run build
+```
+
+## Linting
+
+Linting:
+
+```
+$ deno run lint
+
+$ deno run lint:fix
 ```
